@@ -5,10 +5,10 @@ public class Main {
         Medico Ana = new Medico("Ana", "Ginecologista");
         Medico Bruno = new Medico("Bruno", "Cardiologista");
 
-        Paciente paciente1 = new Paciente("Carlos", "11111111", "81912345678", 18);
-        Paciente paciente2 = new Paciente("Antonio", "22222222", "81923456789", 27);
-        Paciente paciente3 = new Paciente("Pedro", "33333333", "91045678901", 65);
-        Paciente paciente4 = new Paciente("João", "444444", "91043232323", 12);
+        Paciente paciente1 = new Paciente("Carlos", "11111111", "81912345678", aaaaaaaa@gmail.com);
+        Paciente paciente2 = new Paciente("Antonio", "22222222", "81923456789", bbbbbbbbb@gmail.com);
+        Paciente paciente3 = new Paciente("Pedro", "33333333", "91045678901", ccccccccc@gmail.com);
+        Paciente paciente4 = new Paciente("João", "444444", "91043232323", dddddddddd@gmail.com);
 
         Agendamento agendamento1 = new Agendamento(Ana);
         agendamento1.setData("dd/dd/dd");
