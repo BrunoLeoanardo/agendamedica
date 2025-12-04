@@ -8,15 +8,15 @@ package ufrpe.prog2.sistemaconsulta1.negocio;
  *
  * @author nini
  */
-public class Medico {
+public class  Medico {
     public static Object imprimirMedicos() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     private String nome;
     private String especialidade;
 
-    public Medico(String nome, String especialidade) {
-        this.nome = nome;
+    public Medico(String nome, String cpf, String especialidade, String email) {
+        super(nome, cpf, email)
         this.especialidade = especialidade;
     }
 
@@ -28,11 +28,4 @@ public class Medico {
         this.especialidade = especialidade;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 }
