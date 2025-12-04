@@ -1,6 +1,6 @@
 # Projeto-Prog2
 
-O tema do projeto é Agendamento de consultas.
+Sistema de Agendamento de consultas.
 
 O projeto deve buscar contemplar ao menos os seguintes pontos listados a seguir:
 - a. Herança
