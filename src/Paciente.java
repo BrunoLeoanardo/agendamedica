@@ -4,7 +4,7 @@ public class Paciente {
     private String telefone;
     private String email;
 
-    public Paciente (String nome, String cpf, String telefone, int idade) {
+    public Paciente (String nome, String cpf, String telefone, String email) {
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
