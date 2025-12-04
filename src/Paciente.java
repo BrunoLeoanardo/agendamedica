@@ -2,13 +2,13 @@ public class Paciente {
     private String nome;
     private String cpf;
     private String telefone;
-    private int idade;
+    private String email;
 
     public Paciente (String nome, String cpf, String telefone, int idade) {
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
-        this.idade = idade;
+        this.email = email;
     }
 
     public String getNome() {
@@ -35,11 +35,11 @@ public class Paciente {
         this.telefone = telefone;
     }
 
-    public int getIdade() {
-        return idade;
+    public String getEmail() {
+        return email;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
